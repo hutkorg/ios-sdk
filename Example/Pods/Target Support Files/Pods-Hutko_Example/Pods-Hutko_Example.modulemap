@@ -1,0 +1,6 @@
+framework module Pods_Hutko_Example {
+  umbrella header "Pods-Hutko_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

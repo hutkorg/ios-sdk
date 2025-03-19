@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C330342222572127D5E88C84030D29 /* PSLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C505F964B2B21F08951764CB564D5FF /* PSLocalization.m */; };
+		07C3C3C7B55691FE59D067BF0D130E4D /* PSCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3586619FEC41DEEFF6EFAD705A14AFDB /* PSCard.m */; };
+		0A501310CFEFD03FAB94840CF48DD463 /* PSCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 508D7E25989CF2769E853DC38FB06B24 /* PSCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16131653BAB19C7A6B5E511213A91C98 /* PSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DA398B5448008C68777040BFE471CA65 /* PSUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19AC358ECFDBEBB3339ADBDAC88DA6B1 /* Hutko-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E75D2273EF955EDEBF57B0FD4648BA15 /* Hutko-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26A00788F9C6D9B54D788D84EBE55BFE /* PSDefaultConfirmationErrorHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DC0A6AAE7C93B30D6591BE366603739 /* PSDefaultConfirmationErrorHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F7318E6C35527111EEF4890094D5291 /* PSBaseTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF259E9D0BACA6DF23988E94A9D97ED /* PSBaseTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		443E3788E0B5E576ABCB84CFE24CF8B7 /* PSHutkoWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6173ABD4522AC95A1925B0A034F3CD4F /* PSHutkoWKWebView.m */; };
+		45B95AC3C28388771ED87DE208AEC00D /* Pods-Hutko_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E370BF8DE4992AE8FD8D47213F6270F /* Pods-Hutko_Example-dummy.m */; };
+		4B23FEF69E754FD4C30927233BEE0A76 /* PSReceiptUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A3724702B621835CCD38D41E12D2F42 /* PSReceiptUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		517B473B52E4531C0C3AF1C99936453D /* PSEmailTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 338844840919B30045CB1CAE0F60FA4A /* PSEmailTextField.m */; };
+		56D98196035EDCCB8B1CCBCBB9F17CC8 /* PSCardInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9872F766AD889E962F7C9A655724584B /* PSCardInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E4D924514A2558988EBFEC450C0425 /* Hutko-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F588043C0BB25A7B22745D8E4F0CE9 /* Hutko-dummy.m */; };
+		610CC89CD2FA8FCF06028424B371D175 /* PSCardNumberTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 52ADE97EFF410A018F2824682E7BBC0D /* PSCardNumberTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6624186F9A3F66E4244BE9EFEBE6CEA9 /* PSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BA5D2358D72A59570622FC63C1A0446A /* PSUtils.m */; };
+		66972B9D07699D2D352CB3574FEDF4A9 /* PSHutkoApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9B5CDFE723CF6109F9CCB9FA3CFA10 /* PSHutkoApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69F0EBA44B7D9DA9C31C3C3F1D86C966 /* PSCardNumberTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0C03E081F3BE68A0A209CE92E01A77 /* PSCardNumberTextField.m */; };
+		6AF816D134CBE1C88440AF6B8B991367 /* PSCardInputLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 56DB9497FC9947B846E3778D6C13F282 /* PSCardInputLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B7ACEC2190936BDF3F9E3F35A8D3A4B /* PSLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C527CB218548FFDF5B636C30BB75B7 /* PSLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72A731EA5F2BDE2A25D59CFC88A98418 /* PSPayConfirmation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D2889C35BF4620C4FB68DE236B4DF67 /* PSPayConfirmation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8052D16AFCA22B7CD699F6DFBD817B44 /* PSHutko.h in Headers */ = {isa = PBXBuildFile; fileRef = AC0600D59573AB5F7035576218B80ADF /* PSHutko.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B5C350BD442ABF8D3DA847E2F1A691 /* PSCurrency.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADCD758E4AFB8BFEE6BA8E3AB3BFCB2 /* PSCurrency.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8571991C3507917C7BF5DFB0995C6EBE /* PSCardInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 705335B221D554952592DB023949DEF3 /* PSCardInputView.m */; };
+		8E0A9EB877222525549E4512F033D6EE /* PSCardInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0E838C46B15EBE38848B62DB779A22B /* PSCardInputView.xib */; };
+		8ED52BAF87F26701D5E2CE32F51A84B3 /* PSOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3AFF51C5CB23EADD4B68D43C4B794B /* PSOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EF07D424167716B0FE8E428A5FD874F /* Pods-Hutko_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 575B456ACBF1A619FB2CC33E5428C47B /* Pods-Hutko_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F91D4D27D37759C876269A1A18F9A37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6128764C32CB726CAFB7924A7536272 /* UIKit.framework */; };
+		908464A82934A0689891CAA84ACBD1E6 /* PSTextFieldHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C01BD3D9129EEBB7F85CC60CA7BEA9 /* PSTextFieldHandler.m */; };
+		94EB4D0B92CB43965F1E3212CAC41B98 /* PSCVVTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 61897FC6C3BBF73AF6BE92083F98CE2C /* PSCVVTextField.m */; };
+		A0611FA5687D5C325CC39BB1F18E6098 /* PSExpMonthTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EFE247022ECB62963F96B64B1033D3 /* PSExpMonthTextField.m */; };
+		A1E6B3F7058DC12DBB51BA0C0B1AF242 /* PSReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7032EB1D8E07FBE0886635120594BCE6 /* PSReceipt.m */; };
+		A5547D7B823B96D78C57CF60D4BAD1F7 /* PSExpMonthTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = D7165FB455682527245CC765EC2AF66D /* PSExpMonthTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A64160001EDBDEDFA5303F3107F55A18 /* PSCVVTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6A39C671E2091E8C860B29B2850A06 /* PSCVVTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A657AC327EB36F1FD101C30950C1A6F1 /* PSHutkoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A05B1AC54274DDF8AF7A06491A8FFC70 /* PSHutkoApi.m */; };
+		AA5AC83E00C351FF0BE05D5CFAC5A882 /* PSHutkoWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = F37BDC5356AE31A73562C23AA7E2B026 /* PSHutkoWKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B70EC13934898EDB08C7650B0A8CDBB4 /* PSReceiptUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CC8F5D1BD7B2AFB4737B8400CCDA73 /* PSReceiptUtils.m */; };
+		BC145347D3D8B543D09B59B6E223D97F /* Pods-Hutko_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B4F8704F6E8E8640B7AEDAEFA56F92 /* Pods-Hutko_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C64FDE2D67E2163F7287081D5FE9F43C /* PSCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = 335E1D92BE77B75FB5C3D60128C8CD4E /* PSCurrency.m */; };
+		C8A7D45A9631F40A72294B8569CC40B7 /* PSCardInputLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1A21301E7D636BE19E526ED82FEABB /* PSCardInputLayout.m */; };
+		CC5057FAA4FE9DF095B85F9958B841CF /* PSReceipt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF5F92F199F2B3FC5B2FC661C5D899C /* PSReceipt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCA37D5A4E5193D2FE5E39514CC9F0C1 /* Pods-Hutko_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB92245214BC64B1EF261ACA2CE2A73 /* Pods-Hutko_Tests-dummy.m */; };
+		CF31C0D1EC1B7FA328394C7D5447DEB4 /* PSEmailTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC1C43F441EAFCBDDDE6CE7439793AD /* PSEmailTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D23E197590817B81BE97FA3BCF417D97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECDF6DBFE808C9BD29FFC19422FAAFD /* Foundation.framework */; };
+		D310C5A6084E70D77946CD8A915B8FE4 /* PSExpYearTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AFB926E0D0CD0D22B4C8A19C64D38A /* PSExpYearTextField.m */; };
+		D7FD24E51CC39FE56EA3219165C7C09B /* PSTextFieldHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0666A2A0AE54F4EE14C9B27F7581E4 /* PSTextFieldHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB736A8E52F72AFB9589DA64E3903F4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECDF6DBFE808C9BD29FFC19422FAAFD /* Foundation.framework */; };
+		E0578745C0165994690B8FD74C48CDB8 /* PSBaseTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FEB2746CC4AD07424FA32E7FF74D60 /* PSBaseTextField.m */; };
+		E2B34A2FB346C39CB584AA5594B71B3D /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A6332B777739FD14CBDCBD10C708CC /* PassKit.framework */; };
+		E5BBD88325CA3B127EBCF0955B0202FE /* PSExpYearTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E371538553ECC8A0C47DC80B062AE6 /* PSExpYearTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E60307F51ED1910C09180952659CD7EE /* PSPayConfirmation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8B953CB3B02B6177008540A43C6A02 /* PSPayConfirmation.m */; };
+		EE99131D2E69D6DAADC793D6414EE65D /* PSDefaultConfirmationErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C4DE03E8C60BB294BC01EA2F5997448 /* PSDefaultConfirmationErrorHandler.m */; };
+		FC82004ECBA9FF72F3FC2B5E9E00E0A3 /* PSOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CF904588779F276C36A3A6364BE18AE /* PSOrder.m */; };
+		FEDE93BF3FCC9C7A0EA846C5E65C8D9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECDF6DBFE808C9BD29FFC19422FAAFD /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDB3662AB39F1A08A84038BB56A2951F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 792001CDD65CA93D96E1C75720593404;
+			remoteInfo = Hutko;
+		};
+		EF3A698AA23DD843C41E36218DFA4839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 792001CDD65CA93D96E1C75720593404;
+			remoteInfo = Hutko;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C527CB218548FFDF5B636C30BB75B7 /* PSLocalization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSLocalization.h; path = Hutko/PSLocalization.h; sourceTree = "<group>"; };
+		0FD30D746373C304393DA0FA1175D900 /* Hutko.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hutko.modulemap; sourceTree = "<group>"; };
+		16C01BD3D9129EEBB7F85CC60CA7BEA9 /* PSTextFieldHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSTextFieldHandler.m; path = Hutko/PSTextFieldHandler.m; sourceTree = "<group>"; };
+		17A6332B777739FD14CBDCBD10C708CC /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/PassKit.framework; sourceTree = DEVELOPER_DIR; };
+		18A6838C341F66383511B7C4FF89B9BD /* Pods-Hutko_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Hutko_Tests"; path = Pods_Hutko_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4DE03E8C60BB294BC01EA2F5997448 /* PSDefaultConfirmationErrorHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSDefaultConfirmationErrorHandler.m; path = Hutko/PSDefaultConfirmationErrorHandler.m; sourceTree = "<group>"; };
+		1D0F20B48F1779088C600C95C93706B0 /* Hutko.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hutko.debug.xcconfig; sourceTree = "<group>"; };
+		2BA73252268DE28D31DDE504922866A9 /* Pods-Hutko_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hutko_Tests.modulemap"; sourceTree = "<group>"; };
+		2C505F964B2B21F08951764CB564D5FF /* PSLocalization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSLocalization.m; path = Hutko/PSLocalization.m; sourceTree = "<group>"; };
+		30AFB926E0D0CD0D22B4C8A19C64D38A /* PSExpYearTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSExpYearTextField.m; path = Hutko/PSExpYearTextField.m; sourceTree = "<group>"; };
+		312AB4B5C0C2516CAAFD37E91A0913EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		328D633021C6FB19BC66AEF2B7B95E28 /* Pods-Hutko_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hutko_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		335E1D92BE77B75FB5C3D60128C8CD4E /* PSCurrency.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSCurrency.m; path = Hutko/PSCurrency.m; sourceTree = "<group>"; };
+		338844840919B30045CB1CAE0F60FA4A /* PSEmailTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSEmailTextField.m; path = Hutko/PSEmailTextField.m; sourceTree = "<group>"; };
+		33DF41F0AC3548DC3C5098CCBA9ECFD3 /* Hutko */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hutko; path = Hutko.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3586619FEC41DEEFF6EFAD705A14AFDB /* PSCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSCard.m; path = Hutko/PSCard.m; sourceTree = "<group>"; };
+		3CF904588779F276C36A3A6364BE18AE /* PSOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSOrder.m; path = Hutko/PSOrder.m; sourceTree = "<group>"; };
+		3D2889C35BF4620C4FB68DE236B4DF67 /* PSPayConfirmation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSPayConfirmation.h; path = Hutko/PSPayConfirmation.h; sourceTree = "<group>"; };
+		3D3AFF51C5CB23EADD4B68D43C4B794B /* PSOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSOrder.h; path = Hutko/PSOrder.h; sourceTree = "<group>"; };
+		3DC0A6AAE7C93B30D6591BE366603739 /* PSDefaultConfirmationErrorHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSDefaultConfirmationErrorHandler.h; path = Hutko/PSDefaultConfirmationErrorHandler.h; sourceTree = "<group>"; };
+		4C70397EBAD273680DBACDB5A4DBB20E /* Pods-Hutko_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Hutko_Example"; path = Pods_Hutko_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		508D7E25989CF2769E853DC38FB06B24 /* PSCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSCard.h; path = Hutko/PSCard.h; sourceTree = "<group>"; };
+		5254BAF2F694FC91DFA075CEDEB91C07 /* Pods-Hutko_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hutko_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		52ADE97EFF410A018F2824682E7BBC0D /* PSCardNumberTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSCardNumberTextField.h; path = Hutko/PSCardNumberTextField.h; sourceTree = "<group>"; };
+		54E371538553ECC8A0C47DC80B062AE6 /* PSExpYearTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSExpYearTextField.h; path = Hutko/PSExpYearTextField.h; sourceTree = "<group>"; };
+		56DB9497FC9947B846E3778D6C13F282 /* PSCardInputLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSCardInputLayout.h; path = Hutko/PSCardInputLayout.h; sourceTree = "<group>"; };
+		575B456ACBF1A619FB2CC33E5428C47B /* Pods-Hutko_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hutko_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5CC1C43F441EAFCBDDDE6CE7439793AD /* PSEmailTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSEmailTextField.h; path = Hutko/PSEmailTextField.h; sourceTree = "<group>"; };
+		6173ABD4522AC95A1925B0A034F3CD4F /* PSHutkoWKWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSHutkoWKWebView.m; path = Hutko/PSHutkoWKWebView.m; sourceTree = "<group>"; };
+		61897FC6C3BBF73AF6BE92083F98CE2C /* PSCVVTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSCVVTextField.m; path = Hutko/PSCVVTextField.m; sourceTree = "<group>"; };
+		665A7C6F9F0673A69D8EEBBCF1BA1CF6 /* Hutko-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hutko-prefix.pch"; sourceTree = "<group>"; };
+		6A3724702B621835CCD38D41E12D2F42 /* PSReceiptUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSReceiptUtils.h; path = Hutko/PSReceiptUtils.h; sourceTree = "<group>"; };
+		6ADCD758E4AFB8BFEE6BA8E3AB3BFCB2 /* PSCurrency.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSCurrency.h; path = Hutko/PSCurrency.h; sourceTree = "<group>"; };
+		6E3368008F5D183E207A0E22BAF9B9FA /* Pods-Hutko_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hutko_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7032EB1D8E07FBE0886635120594BCE6 /* PSReceipt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSReceipt.m; path = Hutko/PSReceipt.m; sourceTree = "<group>"; };
+		705335B221D554952592DB023949DEF3 /* PSCardInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSCardInputView.m; path = Hutko/PSCardInputView.m; sourceTree = "<group>"; };
+		77D234E33AA6BA3111248999F522C8AF /* Pods-Hutko_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hutko_Tests-Info.plist"; sourceTree = "<group>"; };
+		82CC8F5D1BD7B2AFB4737B8400CCDA73 /* PSReceiptUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSReceiptUtils.m; path = Hutko/PSReceiptUtils.m; sourceTree = "<group>"; };
+		82D50C4F457BF00B6B2CC3119798DBC8 /* Hutko.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Hutko.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		89B4F8704F6E8E8640B7AEDAEFA56F92 /* Pods-Hutko_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hutko_Example-umbrella.h"; sourceTree = "<group>"; };
+		8D0666A2A0AE54F4EE14C9B27F7581E4 /* PSTextFieldHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSTextFieldHandler.h; path = Hutko/PSTextFieldHandler.h; sourceTree = "<group>"; };
+		8E370BF8DE4992AE8FD8D47213F6270F /* Pods-Hutko_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hutko_Example-dummy.m"; sourceTree = "<group>"; };
+		8E6A39C671E2091E8C860B29B2850A06 /* PSCVVTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSCVVTextField.h; path = Hutko/PSCVVTextField.h; sourceTree = "<group>"; };
+		8EF5F92F199F2B3FC5B2FC661C5D899C /* PSReceipt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSReceipt.h; path = Hutko/PSReceipt.h; sourceTree = "<group>"; };
+		9872F766AD889E962F7C9A655724584B /* PSCardInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSCardInputView.h; path = Hutko/PSCardInputView.h; sourceTree = "<group>"; };
+		9C9B5CDFE723CF6109F9CCB9FA3CFA10 /* PSHutkoApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSHutkoApi.h; path = Hutko/PSHutkoApi.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DBD2AC05411D9BBDF953A7C192625FF /* Hutko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hutko.release.xcconfig; sourceTree = "<group>"; };
+		A05B1AC54274DDF8AF7A06491A8FFC70 /* PSHutkoApi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSHutkoApi.m; path = Hutko/PSHutkoApi.m; sourceTree = "<group>"; };
+		A0E838C46B15EBE38848B62DB779A22B /* PSCardInputView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PSCardInputView.xib; path = Hutko/PSCardInputView.xib; sourceTree = "<group>"; };
+		A4E74F5B59F78C468E6ECE3905A9F9D2 /* Pods-Hutko_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hutko_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9CF422C563898AFEEF255E0D0A64614 /* Pods-Hutko_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hutko_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AC0600D59573AB5F7035576218B80ADF /* PSHutko.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSHutko.h; path = Hutko/PSHutko.h; sourceTree = "<group>"; };
+		ADF259E9D0BACA6DF23988E94A9D97ED /* PSBaseTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSBaseTextField.h; path = Hutko/PSBaseTextField.h; sourceTree = "<group>"; };
+		B1428D158B193E0CDB679D1ED6E32536 /* Pods-Hutko_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hutko_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B7F588043C0BB25A7B22745D8E4F0CE9 /* Hutko-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hutko-dummy.m"; sourceTree = "<group>"; };
+		B8FA2237EB40BB7E259ED86822664DC8 /* Pods-Hutko_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hutko_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA5D2358D72A59570622FC63C1A0446A /* PSUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSUtils.m; path = Hutko/PSUtils.m; sourceTree = "<group>"; };
+		BBD2761673983506BA2127B9E155A310 /* Pods-Hutko_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hutko_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6128764C32CB726CAFB7924A7536272 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CC8B953CB3B02B6177008540A43C6A02 /* PSPayConfirmation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSPayConfirmation.m; path = Hutko/PSPayConfirmation.m; sourceTree = "<group>"; };
+		CD1A21301E7D636BE19E526ED82FEABB /* PSCardInputLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSCardInputLayout.m; path = Hutko/PSCardInputLayout.m; sourceTree = "<group>"; };
+		CECDF6DBFE808C9BD29FFC19422FAAFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1EFE247022ECB62963F96B64B1033D3 /* PSExpMonthTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSExpMonthTextField.m; path = Hutko/PSExpMonthTextField.m; sourceTree = "<group>"; };
+		D7165FB455682527245CC765EC2AF66D /* PSExpMonthTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSExpMonthTextField.h; path = Hutko/PSExpMonthTextField.h; sourceTree = "<group>"; };
+		DA398B5448008C68777040BFE471CA65 /* PSUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSUtils.h; path = Hutko/PSUtils.h; sourceTree = "<group>"; };
+		DF0C03E081F3BE68A0A209CE92E01A77 /* PSCardNumberTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSCardNumberTextField.m; path = Hutko/PSCardNumberTextField.m; sourceTree = "<group>"; };
+		DFB92245214BC64B1EF261ACA2CE2A73 /* Pods-Hutko_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hutko_Tests-dummy.m"; sourceTree = "<group>"; };
+		E000D9AF1B4D0F1BA59DA62696F2A27D /* Hutko-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Hutko-Info.plist"; sourceTree = "<group>"; };
+		E38EBAB0BAC1D8648BFDF495A3B4EB4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E5D3B9A5C6E1710D13D86D18A562376F /* Pods-Hutko_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hutko_Example.modulemap"; sourceTree = "<group>"; };
+		E75D2273EF955EDEBF57B0FD4648BA15 /* Hutko-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hutko-umbrella.h"; sourceTree = "<group>"; };
+		E7FEB2746CC4AD07424FA32E7FF74D60 /* PSBaseTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSBaseTextField.m; path = Hutko/PSBaseTextField.m; sourceTree = "<group>"; };
+		E9CF239D6559099F19C97F91A03810E1 /* Pods-Hutko_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hutko_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EDEFD554D91D62F693D22427E379AF28 /* Pods-Hutko_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hutko_Example-Info.plist"; sourceTree = "<group>"; };
+		F37BDC5356AE31A73562C23AA7E2B026 /* PSHutkoWKWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSHutkoWKWebView.h; path = Hutko/PSHutkoWKWebView.h; sourceTree = "<group>"; };
+		FD453EDBE151A54F47B9DA43487AC5B9 /* Pods-Hutko_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hutko_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5D36E08CF52C2C1CAAC95433F459993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB736A8E52F72AFB9589DA64E3903F4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32740AFF93E38B94F421567D2474F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23E197590817B81BE97FA3BCF417D97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE309C0D13390C64AFAEFF062B28100B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDE93BF3FCC9C7A0EA846C5E65C8D9D /* Foundation.framework in Frameworks */,
+				E2B34A2FB346C39CB584AA5594B71B3D /* PassKit.framework in Frameworks */,
+				8F91D4D27D37759C876269A1A18F9A37 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1CA7F61A36E51CFDFAF9382FA86D240 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4241698654120F6A29EDD6EB688E5FC4 /* Hutko */ = {
+			isa = PBXGroup;
+			children = (
+				ADF259E9D0BACA6DF23988E94A9D97ED /* PSBaseTextField.h */,
+				E7FEB2746CC4AD07424FA32E7FF74D60 /* PSBaseTextField.m */,
+				508D7E25989CF2769E853DC38FB06B24 /* PSCard.h */,
+				3586619FEC41DEEFF6EFAD705A14AFDB /* PSCard.m */,
+				56DB9497FC9947B846E3778D6C13F282 /* PSCardInputLayout.h */,
+				CD1A21301E7D636BE19E526ED82FEABB /* PSCardInputLayout.m */,
+				9872F766AD889E962F7C9A655724584B /* PSCardInputView.h */,
+				705335B221D554952592DB023949DEF3 /* PSCardInputView.m */,
+				A0E838C46B15EBE38848B62DB779A22B /* PSCardInputView.xib */,
+				52ADE97EFF410A018F2824682E7BBC0D /* PSCardNumberTextField.h */,
+				DF0C03E081F3BE68A0A209CE92E01A77 /* PSCardNumberTextField.m */,
+				6ADCD758E4AFB8BFEE6BA8E3AB3BFCB2 /* PSCurrency.h */,
+				335E1D92BE77B75FB5C3D60128C8CD4E /* PSCurrency.m */,
+				8E6A39C671E2091E8C860B29B2850A06 /* PSCVVTextField.h */,
+				61897FC6C3BBF73AF6BE92083F98CE2C /* PSCVVTextField.m */,
+				3DC0A6AAE7C93B30D6591BE366603739 /* PSDefaultConfirmationErrorHandler.h */,
+				1C4DE03E8C60BB294BC01EA2F5997448 /* PSDefaultConfirmationErrorHandler.m */,
+				5CC1C43F441EAFCBDDDE6CE7439793AD /* PSEmailTextField.h */,
+				338844840919B30045CB1CAE0F60FA4A /* PSEmailTextField.m */,
+				D7165FB455682527245CC765EC2AF66D /* PSExpMonthTextField.h */,
+				D1EFE247022ECB62963F96B64B1033D3 /* PSExpMonthTextField.m */,
+				54E371538553ECC8A0C47DC80B062AE6 /* PSExpYearTextField.h */,
+				30AFB926E0D0CD0D22B4C8A19C64D38A /* PSExpYearTextField.m */,
+				AC0600D59573AB5F7035576218B80ADF /* PSHutko.h */,
+				9C9B5CDFE723CF6109F9CCB9FA3CFA10 /* PSHutkoApi.h */,
+				A05B1AC54274DDF8AF7A06491A8FFC70 /* PSHutkoApi.m */,
+				F37BDC5356AE31A73562C23AA7E2B026 /* PSHutkoWKWebView.h */,
+				6173ABD4522AC95A1925B0A034F3CD4F /* PSHutkoWKWebView.m */,
+				01C527CB218548FFDF5B636C30BB75B7 /* PSLocalization.h */,
+				2C505F964B2B21F08951764CB564D5FF /* PSLocalization.m */,
+				3D3AFF51C5CB23EADD4B68D43C4B794B /* PSOrder.h */,
+				3CF904588779F276C36A3A6364BE18AE /* PSOrder.m */,
+				3D2889C35BF4620C4FB68DE236B4DF67 /* PSPayConfirmation.h */,
+				CC8B953CB3B02B6177008540A43C6A02 /* PSPayConfirmation.m */,
+				8EF5F92F199F2B3FC5B2FC661C5D899C /* PSReceipt.h */,
+				7032EB1D8E07FBE0886635120594BCE6 /* PSReceipt.m */,
+				6A3724702B621835CCD38D41E12D2F42 /* PSReceiptUtils.h */,
+				82CC8F5D1BD7B2AFB4737B8400CCDA73 /* PSReceiptUtils.m */,
+				8D0666A2A0AE54F4EE14C9B27F7581E4 /* PSTextFieldHandler.h */,
+				16C01BD3D9129EEBB7F85CC60CA7BEA9 /* PSTextFieldHandler.m */,
+				DA398B5448008C68777040BFE471CA65 /* PSUtils.h */,
+				BA5D2358D72A59570622FC63C1A0446A /* PSUtils.m */,
+				9975FCA9346C21DD0F9275A05285D62A /* Pod */,
+				A93D07C9601B225A64C4B656AF3C1AEB /* Support Files */,
+			);
+			name = Hutko;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5FACA31B980D09FB7109C1533322D6CA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4241698654120F6A29EDD6EB688E5FC4 /* Hutko */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		771A615E8965F8824B757870E709ABD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33DF41F0AC3548DC3C5098CCBA9ECFD3 /* Hutko */,
+				4C70397EBAD273680DBACDB5A4DBB20E /* Pods-Hutko_Example */,
+				18A6838C341F66383511B7C4FF89B9BD /* Pods-Hutko_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85CB0E7D1DEF82FB6C6554C99921545A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D831E04BC75B5109B571A70DECB3930D /* Pods-Hutko_Example */,
+				DDA13A4346662896B201D9E0625CCC24 /* Pods-Hutko_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9975FCA9346C21DD0F9275A05285D62A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				82D50C4F457BF00B6B2CC3119798DBC8 /* Hutko.podspec */,
+				312AB4B5C0C2516CAAFD37E91A0913EA /* LICENSE */,
+				E38EBAB0BAC1D8648BFDF495A3B4EB4B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A93D07C9601B225A64C4B656AF3C1AEB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FD30D746373C304393DA0FA1175D900 /* Hutko.modulemap */,
+				B7F588043C0BB25A7B22745D8E4F0CE9 /* Hutko-dummy.m */,
+				E000D9AF1B4D0F1BA59DA62696F2A27D /* Hutko-Info.plist */,
+				665A7C6F9F0673A69D8EEBBCF1BA1CF6 /* Hutko-prefix.pch */,
+				E75D2273EF955EDEBF57B0FD4648BA15 /* Hutko-umbrella.h */,
+				1D0F20B48F1779088C600C95C93706B0 /* Hutko.debug.xcconfig */,
+				9DBD2AC05411D9BBDF953A7C192625FF /* Hutko.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Hutko";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5FACA31B980D09FB7109C1533322D6CA /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				771A615E8965F8824B757870E709ABD8 /* Products */,
+				85CB0E7D1DEF82FB6C6554C99921545A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1CA7F61A36E51CFDFAF9382FA86D240 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CECDF6DBFE808C9BD29FFC19422FAAFD /* Foundation.framework */,
+				17A6332B777739FD14CBDCBD10C708CC /* PassKit.framework */,
+				C6128764C32CB726CAFB7924A7536272 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D831E04BC75B5109B571A70DECB3930D /* Pods-Hutko_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E5D3B9A5C6E1710D13D86D18A562376F /* Pods-Hutko_Example.modulemap */,
+				328D633021C6FB19BC66AEF2B7B95E28 /* Pods-Hutko_Example-acknowledgements.markdown */,
+				B8FA2237EB40BB7E259ED86822664DC8 /* Pods-Hutko_Example-acknowledgements.plist */,
+				8E370BF8DE4992AE8FD8D47213F6270F /* Pods-Hutko_Example-dummy.m */,
+				6E3368008F5D183E207A0E22BAF9B9FA /* Pods-Hutko_Example-frameworks.sh */,
+				EDEFD554D91D62F693D22427E379AF28 /* Pods-Hutko_Example-Info.plist */,
+				89B4F8704F6E8E8640B7AEDAEFA56F92 /* Pods-Hutko_Example-umbrella.h */,
+				A9CF422C563898AFEEF255E0D0A64614 /* Pods-Hutko_Example.debug.xcconfig */,
+				FD453EDBE151A54F47B9DA43487AC5B9 /* Pods-Hutko_Example.release.xcconfig */,
+			);
+			name = "Pods-Hutko_Example";
+			path = "Target Support Files/Pods-Hutko_Example";
+			sourceTree = "<group>";
+		};
+		DDA13A4346662896B201D9E0625CCC24 /* Pods-Hutko_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2BA73252268DE28D31DDE504922866A9 /* Pods-Hutko_Tests.modulemap */,
+				A4E74F5B59F78C468E6ECE3905A9F9D2 /* Pods-Hutko_Tests-acknowledgements.markdown */,
+				5254BAF2F694FC91DFA075CEDEB91C07 /* Pods-Hutko_Tests-acknowledgements.plist */,
+				DFB92245214BC64B1EF261ACA2CE2A73 /* Pods-Hutko_Tests-dummy.m */,
+				E9CF239D6559099F19C97F91A03810E1 /* Pods-Hutko_Tests-frameworks.sh */,
+				77D234E33AA6BA3111248999F522C8AF /* Pods-Hutko_Tests-Info.plist */,
+				575B456ACBF1A619FB2CC33E5428C47B /* Pods-Hutko_Tests-umbrella.h */,
+				BBD2761673983506BA2127B9E155A310 /* Pods-Hutko_Tests.debug.xcconfig */,
+				B1428D158B193E0CDB679D1ED6E32536 /* Pods-Hutko_Tests.release.xcconfig */,
+			);
+			name = "Pods-Hutko_Tests";
+			path = "Target Support Files/Pods-Hutko_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10DB3820AA21E2CB6C03C0B3C0452DCA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF07D424167716B0FE8E428A5FD874F /* Pods-Hutko_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5084A5D6135F97A7B88D09EF74A91603 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AC358ECFDBEBB3339ADBDAC88DA6B1 /* Hutko-umbrella.h in Headers */,
+				2F7318E6C35527111EEF4890094D5291 /* PSBaseTextField.h in Headers */,
+				0A501310CFEFD03FAB94840CF48DD463 /* PSCard.h in Headers */,
+				6AF816D134CBE1C88440AF6B8B991367 /* PSCardInputLayout.h in Headers */,
+				56D98196035EDCCB8B1CCBCBB9F17CC8 /* PSCardInputView.h in Headers */,
+				610CC89CD2FA8FCF06028424B371D175 /* PSCardNumberTextField.h in Headers */,
+				81B5C350BD442ABF8D3DA847E2F1A691 /* PSCurrency.h in Headers */,
+				A64160001EDBDEDFA5303F3107F55A18 /* PSCVVTextField.h in Headers */,
+				26A00788F9C6D9B54D788D84EBE55BFE /* PSDefaultConfirmationErrorHandler.h in Headers */,
+				CF31C0D1EC1B7FA328394C7D5447DEB4 /* PSEmailTextField.h in Headers */,
+				A5547D7B823B96D78C57CF60D4BAD1F7 /* PSExpMonthTextField.h in Headers */,
+				E5BBD88325CA3B127EBCF0955B0202FE /* PSExpYearTextField.h in Headers */,
+				8052D16AFCA22B7CD699F6DFBD817B44 /* PSHutko.h in Headers */,
+				66972B9D07699D2D352CB3574FEDF4A9 /* PSHutkoApi.h in Headers */,
+				AA5AC83E00C351FF0BE05D5CFAC5A882 /* PSHutkoWKWebView.h in Headers */,
+				6B7ACEC2190936BDF3F9E3F35A8D3A4B /* PSLocalization.h in Headers */,
+				8ED52BAF87F26701D5E2CE32F51A84B3 /* PSOrder.h in Headers */,
+				72A731EA5F2BDE2A25D59CFC88A98418 /* PSPayConfirmation.h in Headers */,
+				CC5057FAA4FE9DF095B85F9958B841CF /* PSReceipt.h in Headers */,
+				4B23FEF69E754FD4C30927233BEE0A76 /* PSReceiptUtils.h in Headers */,
+				D7FD24E51CC39FE56EA3219165C7C09B /* PSTextFieldHandler.h in Headers */,
+				16131653BAB19C7A6B5E511213A91C98 /* PSUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDC9ABCAD5B77E954EC4E96BC2952B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC145347D3D8B543D09B59B6E223D97F /* Pods-Hutko_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		792001CDD65CA93D96E1C75720593404 /* Hutko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2AE047410FBAA7C66A2633D0CB8F2AA /* Build configuration list for PBXNativeTarget "Hutko" */;
+			buildPhases = (
+				5084A5D6135F97A7B88D09EF74A91603 /* Headers */,
+				C52612014404588E7328A9FE416F677F /* Sources */,
+				EE309C0D13390C64AFAEFF062B28100B /* Frameworks */,
+				CC965B4EE5F157E0113CC3723697A9CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hutko;
+			productName = Hutko;
+			productReference = 33DF41F0AC3548DC3C5098CCBA9ECFD3 /* Hutko */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8411BDAC38C8F83A4EF1AF4504834E4 /* Pods-Hutko_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22127DC6E63DD619371B5D2DB53A5FCE /* Build configuration list for PBXNativeTarget "Pods-Hutko_Example" */;
+			buildPhases = (
+				FBDC9ABCAD5B77E954EC4E96BC2952B6 /* Headers */,
+				B14DBC1CDD30CA734B52C234643B35D8 /* Sources */,
+				B32740AFF93E38B94F421567D2474F12 /* Frameworks */,
+				2B7E6C6E327C64FA8EC2136057567F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC012C98313B47F44624F5F0B7CAD7CE /* PBXTargetDependency */,
+			);
+			name = "Pods-Hutko_Example";
+			productName = Pods_Hutko_Example;
+			productReference = 4C70397EBAD273680DBACDB5A4DBB20E /* Pods-Hutko_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7A9D429C2C81A32CF335C218933EEA1 /* Pods-Hutko_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A7A0F946C6B210A62D3301984A204E3 /* Build configuration list for PBXNativeTarget "Pods-Hutko_Tests" */;
+			buildPhases = (
+				10DB3820AA21E2CB6C03C0B3C0452DCA /* Headers */,
+				FD5EA3AFA1DFFC533BAB2754DB499893 /* Sources */,
+				A5D36E08CF52C2C1CAAC95433F459993 /* Frameworks */,
+				1AA86A9EE089FAB3D524AE99999CAE80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFD08CA660474B2D50F858F8CE7B52E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-Hutko_Tests";
+			productName = Pods_Hutko_Tests;
+			productReference = 18A6838C341F66383511B7C4FF89B9BD /* Pods-Hutko_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 771A615E8965F8824B757870E709ABD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				792001CDD65CA93D96E1C75720593404 /* Hutko */,
+				B8411BDAC38C8F83A4EF1AF4504834E4 /* Pods-Hutko_Example */,
+				E7A9D429C2C81A32CF335C218933EEA1 /* Pods-Hutko_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AA86A9EE089FAB3D524AE99999CAE80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7E6C6E327C64FA8EC2136057567F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC965B4EE5F157E0113CC3723697A9CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0A9EB877222525549E4512F033D6EE /* PSCardInputView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B14DBC1CDD30CA734B52C234643B35D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B95AC3C28388771ED87DE208AEC00D /* Pods-Hutko_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C52612014404588E7328A9FE416F677F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E4D924514A2558988EBFEC450C0425 /* Hutko-dummy.m in Sources */,
+				E0578745C0165994690B8FD74C48CDB8 /* PSBaseTextField.m in Sources */,
+				07C3C3C7B55691FE59D067BF0D130E4D /* PSCard.m in Sources */,
+				C8A7D45A9631F40A72294B8569CC40B7 /* PSCardInputLayout.m in Sources */,
+				8571991C3507917C7BF5DFB0995C6EBE /* PSCardInputView.m in Sources */,
+				69F0EBA44B7D9DA9C31C3C3F1D86C966 /* PSCardNumberTextField.m in Sources */,
+				C64FDE2D67E2163F7287081D5FE9F43C /* PSCurrency.m in Sources */,
+				94EB4D0B92CB43965F1E3212CAC41B98 /* PSCVVTextField.m in Sources */,
+				EE99131D2E69D6DAADC793D6414EE65D /* PSDefaultConfirmationErrorHandler.m in Sources */,
+				517B473B52E4531C0C3AF1C99936453D /* PSEmailTextField.m in Sources */,
+				A0611FA5687D5C325CC39BB1F18E6098 /* PSExpMonthTextField.m in Sources */,
+				D310C5A6084E70D77946CD8A915B8FE4 /* PSExpYearTextField.m in Sources */,
+				A657AC327EB36F1FD101C30950C1A6F1 /* PSHutkoApi.m in Sources */,
+				443E3788E0B5E576ABCB84CFE24CF8B7 /* PSHutkoWKWebView.m in Sources */,
+				06C330342222572127D5E88C84030D29 /* PSLocalization.m in Sources */,
+				FC82004ECBA9FF72F3FC2B5E9E00E0A3 /* PSOrder.m in Sources */,
+				E60307F51ED1910C09180952659CD7EE /* PSPayConfirmation.m in Sources */,
+				A1E6B3F7058DC12DBB51BA0C0B1AF242 /* PSReceipt.m in Sources */,
+				B70EC13934898EDB08C7650B0A8CDBB4 /* PSReceiptUtils.m in Sources */,
+				908464A82934A0689891CAA84ACBD1E6 /* PSTextFieldHandler.m in Sources */,
+				6624186F9A3F66E4244BE9EFEBE6CEA9 /* PSUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5EA3AFA1DFFC533BAB2754DB499893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA37D5A4E5193D2FE5E39514CC9F0C1 /* Pods-Hutko_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC012C98313B47F44624F5F0B7CAD7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hutko;
+			target = 792001CDD65CA93D96E1C75720593404 /* Hutko */;
+			targetProxy = EF3A698AA23DD843C41E36218DFA4839 /* PBXContainerItemProxy */;
+		};
+		FFD08CA660474B2D50F858F8CE7B52E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hutko;
+			target = 792001CDD65CA93D96E1C75720593404 /* Hutko */;
+			targetProxy = EDB3662AB39F1A08A84038BB56A2951F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		46AD7F559FF34057ACEB3FEAC6C4A308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD2761673983506BA2127B9E155A310 /* Pods-Hutko_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hutko_Tests/Pods-Hutko_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hutko_Tests/Pods-Hutko_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59F069792F75B1910287EE550A6D78A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD453EDBE151A54F47B9DA43487AC5B9 /* Pods-Hutko_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hutko_Example/Pods-Hutko_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hutko_Example/Pods-Hutko_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7CC56D2BAC3CCC50F8BDC9F6A00664F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DBD2AC05411D9BBDF953A7C192625FF /* Hutko.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Hutko/Hutko-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Hutko/Hutko-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hutko/Hutko.modulemap";
+				PRODUCT_MODULE_NAME = Hutko;
+				PRODUCT_NAME = Hutko;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C6F0AAE5B4D008B9340DA9B29295EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D0F20B48F1779088C600C95C93706B0 /* Hutko.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/Hutko/Hutko-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/Hutko/Hutko-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hutko/Hutko.modulemap";
+				PRODUCT_MODULE_NAME = Hutko;
+				PRODUCT_NAME = Hutko;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A990B6EED54BE38567BD7F39534760DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9CF422C563898AFEEF255E0D0A64614 /* Pods-Hutko_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hutko_Example/Pods-Hutko_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hutko_Example/Pods-Hutko_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C86994072E10E61A3A679C1C6D60FC51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1428D158B193E0CDB679D1ED6E32536 /* Pods-Hutko_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Hutko_Tests/Pods-Hutko_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hutko_Tests/Pods-Hutko_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22127DC6E63DD619371B5D2DB53A5FCE /* Build configuration list for PBXNativeTarget "Pods-Hutko_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A990B6EED54BE38567BD7F39534760DA /* Debug */,
+				59F069792F75B1910287EE550A6D78A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A7A0F946C6B210A62D3301984A204E3 /* Build configuration list for PBXNativeTarget "Pods-Hutko_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46AD7F559FF34057ACEB3FEAC6C4A308 /* Debug */,
+				C86994072E10E61A3A679C1C6D60FC51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2AE047410FBAA7C66A2633D0CB8F2AA /* Build configuration list for PBXNativeTarget "Hutko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C6F0AAE5B4D008B9340DA9B29295EBF /* Debug */,
+				7CC56D2BAC3CCC50F8BDC9F6A00664F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

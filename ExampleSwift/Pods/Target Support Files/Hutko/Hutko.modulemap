@@ -1,0 +1,6 @@
+framework module Hutko {
+  umbrella header "Hutko-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_Hutko_Tests {
+  umbrella header "Pods-Hutko_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
