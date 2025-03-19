@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   s.version          = "0.10.0"
   s.summary          = "Library for accepting payments directly from iOS application's clients."
 
-  s.homepage         = "https://github.com/Hutko/ios-sdk"
+  s.homepage         = "https://github.com/hutkorg/ios-sdk"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "Maxim Kozenko" => "max.dnu@gmail.com" }
-  s.source           = { :git => "https://github.com/Hutko/ios-sdk.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/hutkorg/ios-sdk.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '9.0'
   s.requires_arc = true

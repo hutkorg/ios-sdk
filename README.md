@@ -27,7 +27,7 @@ Once you have your Swift package set up, adding Hutko as a dependency is as easy
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Hutko/ios-sdk.git", .upToNextMajor(from: "0.9.3"))
+    .package(url: "https://github.com/hutkorg/ios-sdk.git", .upToNextMajor(from: "0.9.3"))
 ]
 ```
 
